@@ -1,8 +1,9 @@
 export default {
-  ROOT: "<%= BASE_URL %>",
-  PRODUCTS: "<%= BASE_URL %>/products",
-  CART: "<%= BASE_URL %>/cart",
-  CHECKOUT: "<%= BASE_URL %>/checkout",
-  GRATITUDE: "<%= BASE_URL %>/gratitude",
-  ID: "<%= BASE_URL %>/:id",
+  ROOT: "/Farmacia-vue/",
+  PRODUCTS: "/Farmacia-vue/products",
+  CART: "/Farmacia-vue/cart",
+  CHECKOUT: "/Farmacia-vue/checkout",
+  GRATITUDE: "/Farmacia-vue/gratitude",
+  RECETAS: "/Farmacia-vue/recetas",
+  ID: "/Farmacia-vue/:id",
 };
