@@ -1,0 +1,18 @@
+.body-content {
+  margin-top: 56px;
+  width: 100%;
+  height: calc(100vh - 56px);
+  flex: 1; /* Esto permite que este div tome todo el espacio disponible */
+}
+/* layouts/public/style.scss */
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
